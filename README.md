@@ -10,3 +10,12 @@ ___
 * Sum of  two number
 * BMI calculator
 * Tip calculator
+
+---
+**✅ day 3 :** `if, else, elif, lower(), count()`
+ * Odd or Even
+ * BMI calculator 2.0
+ * Pizza order
+ * Checking size
+ * Love calculator
+ * Treasure island
