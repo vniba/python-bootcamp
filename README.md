@@ -5,7 +5,7 @@ ___
 **✅ day 1 :**   `strings, input(), print(), len(), variables, subscript[ ]`
 
 * Band name generator
-___
+---
 **✅ day 2 :**  `Datatypes, type(), str(), int(), float(), arithmetic operators[ ** , * , / , + , - ], PEDMASRL, F-string, round(), floor division(//)`
 * Sum of  two number
 * BMI calculator
@@ -19,3 +19,10 @@ ___
  * Checking size
  * Love calculator
  * Treasure island
+
+---
+**✅ day 4 :** `import, random, random(), randint(), lists[], split(),`
+ *  Heads or Tails
+ * Banker Roulette
+ * Treasure Map
+ * Rock Paper Scissors
