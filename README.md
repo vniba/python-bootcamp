@@ -26,3 +26,11 @@ ___
  * Banker Roulette
  * Treasure Map
  * Rock Paper Scissors
+
+---
+**✅ day 5 :** `for loop, range(), choice(), shuffle()`
+* Average Height
+* Adding Evens 
+* Highest Score
+* Fizz Buzz
+* Password Generator
