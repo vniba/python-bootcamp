@@ -34,3 +34,9 @@ ___
 * Highest Score
 * Fizz Buzz
 * Password Generator
+
+___
+**✅ day 6 :** `def, while loop`
+ * Reeborg World
+    * Hurdle 1 - 4
+    * Maze
