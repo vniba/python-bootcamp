@@ -40,3 +40,7 @@ ___
  * Reeborg World
     * Hurdle 1 - 4
     * Maze
+
+---
+**✅ day 7 :** `is not, not in`
+ * Hangman game
