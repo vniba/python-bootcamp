@@ -44,3 +44,9 @@ ___
 ---
 **✅ day 7 :** `is not, not in`
  * Hangman game
+
+---
+**✅ day 8 :** `index()`
+ * Area
+ * Prime number checker
+ * Caesar cipher
