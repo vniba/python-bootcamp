@@ -50,3 +50,10 @@ ___
  * Area
  * Prime number checker
  * Caesar cipher
+
+---
+
+**✅ day 9:** `dict {}`
+* Grading program
+* Dictionary in List
+* Blind Auction
