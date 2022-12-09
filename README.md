@@ -57,3 +57,8 @@ ___
 * Grading program
 * Dictionary in List
 * Blind Auction
+
+---
+**✅ day 10 :** `title(), return, """docstring""`
+* Day in Month
+* Calculator
