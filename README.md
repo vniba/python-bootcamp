@@ -2,17 +2,17 @@
 
 >>>>>## 100 Days challenge 😍 
 ___
-**✅ day 1 :**   `strings, input(), print(), len(), variables, subscript[ ]`
+**✅ [day 1](/day1/) :**   `strings, input(), print(), len(), variables, subscript[ ]`
 
 * Band name generator
 ---
-**✅ day 2 :**  `Datatypes, type(), str(), int(), float(), arithmetic operators[ ** , * , / , + , - ], PEDMASRL, F-string, round(), floor division(//)`
+**✅ [day 2](/day2/) :**  `Datatypes, type(), str(), int(), float(), arithmetic operators[ ** , * , / , + , - ], PEDMASRL, F-string, round(), floor division(//)`
 * Sum of  two number
 * BMI calculator
 * Tip calculator
 
 ---
-**✅ day 3 :** `if, else, elif, lower(), count()`
+**✅ [day 3](/day3/) :** `if, else, elif, lower(), count()`
  * Odd or Even
  * BMI calculator 2.0
  * Pizza order
@@ -21,14 +21,14 @@ ___
  * Treasure island
 
 ---
-**✅ day 4 :** `import, random, random(), randint(), lists[], split(),`
+**✅ [day 4](/day4/) :** `import, random, random(), randint(), lists[], split(),`
  *  Heads or Tails
  * Banker Roulette
  * Treasure Map
  * Rock Paper Scissors
 
 ---
-**✅ day 5 :** `for loop, range(), choice(), shuffle()`
+**✅ [day 5](/day5/) :** `for loop, range(), choice(), shuffle()`
 * Average Height
 * Adding Evens 
 * Highest Score
@@ -36,33 +36,33 @@ ___
 * Password Generator
 
 ___
-**✅ day 6 :** `def, while loop`
+**✅ [day 6](/day6/) :** `def, while loop`
  * Reeborg World
     * Hurdle 1 - 4
     * Maze
 
 ---
-**✅ day 7 :** `is not, not in`
+**✅ [day 7](/day7/) :** `is not, not in`
  * Hangman game
 
 ---
-**✅ day 8 :** `index()`
+**✅ [day 8](/day8/) :** `index()`
  * Area
  * Prime number checker
  * Caesar cipher
 
 ---
 
-**✅ day 9:** `dict {}`
+**✅ [day 9](/day9/) :** `dict {}`
 * Grading program
 * Dictionary in List
 * Blind Auction
 
 ---
-**✅ day 10 :** `title(), return, """docstring""`
+**✅ [day 10](/day10/) :** `title(), return, """docstring""`
 * Day in Month
 * Calculator
 
 ---
-**✅ day 11 :** ` `
+**✅ [day 11](/day11/) :** ` `
 * Black Jack
