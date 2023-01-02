@@ -66,3 +66,7 @@ ___
 ---
 **✅ [day 11](/day11/) :** ` `
 * Black Jack
+
+---
+**✅ [day 12](/day12/) :** `global, GLOBAL CONSTANT`
+* Guess The Number
