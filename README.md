@@ -70,3 +70,13 @@ ___
 ---
 **✅ [day 12](/day12/) :** `global, GLOBAL CONSTANT`
 * Guess The Number
+
+---
+**✅ [day 13](/day13/) :** `Debugg`
+* Describe the problem
+* Reproduce the bug
+* Squash bugs
+* Using a debugger
+* Odd or Even
+* Leap Year 
+* FizzBuzz
