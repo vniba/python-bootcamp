@@ -27,19 +27,27 @@ current_score = 0
 answer = False
 swap = False
 third = {}
-
 while game:
     # generate random data from array
-    if not swap:
-        first = show_details()
-        second = show_details()
-        if first == second:
-            second = show_details()
-    else:
+    # if swap true a  = b
+    if swap:
         first = third
         second = show_details()
         if first == second:
             second = show_details()
+    # if swap false and t is empty  generate new
+    elif not swap and third == {}:  # false
+        first = show_details()
+        second = show_details()
+        if first == second:
+            second = show_details()
+    # if a is true generate b
+    elif not swap and third:  # false third true
+        first = third
+        second = show_details()
+        if first == second:
+            second = show_details()
+
     # format the obj in printable format
     show()
 
@@ -48,21 +56,22 @@ while game:
 
     # check if user is correct
     if first["follower_count"] > second["follower_count"] and user_inp == "a":
-        answer = 1
+        third = first
+        answer = True
     elif first["follower_count"] < second["follower_count"] and user_inp == "b":
-        answer = 2
+        answer = True
+        swap = True
+        third = second
     else:
-        answer = 0
+        answer = False
 
     # give feedback user
-    if answer == 1 or answer == 2:
+    if answer:
         # update score
         current_score += 1
         # if wins continue game
         print(f"you're right! Current score:{current_score}")
         # making the object b become next account at position a
-        swap = True
-        third = first
         game = True
     else:
         game = False
