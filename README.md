@@ -80,3 +80,12 @@ ___
 * Odd or Even
 * Leap Year 
 * FizzBuzz
+
+---
+**✅ [day 14](/day14/)** `self-learn`
+* Higher Lower Game
+
+---
+
+**✅ [day 15](/day15/)** 
+* Coffee Machine
