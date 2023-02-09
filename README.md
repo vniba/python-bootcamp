@@ -89,3 +89,7 @@ ___
 
 **✅ [day 15](/day15/)** 
 * Coffee Machine
+
+----
+**✅ [day 16](/day16/)** `OOP, turtle graphics`
+* Coffee Machine with OOP
