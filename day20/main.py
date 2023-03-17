@@ -6,7 +6,7 @@ import time
 
 # => setting up the screen
 screen = Screen()
-screen.setup(width=800, height=800)
+screen.setup(width = 800, height = 800)
 screen.bgcolor("black")
 screen.title("snake Game")
 screen.tracer(0)
@@ -15,7 +15,6 @@ screen.tracer(0)
 snake = Snake()
 food = Food()
 score = Score_card()
-
 
 screen.listen()
 screen.onkey(snake.up, "Up")
@@ -43,15 +42,16 @@ while game_is_on:
         or snake.head.ycor() > 380
         or snake.head.ycor() < -380
     ):
-        game_is_on = False
-        score.game_over()
+        score.reset()
+        snake.reset()
 
     # detect collition with tail
 
-    for sn in snake.snake[1:]:
-        if snake.head.distance(sn) < 10:
-            game_is_on = False
-            score.game_over()
-
+    for sn in snake.snake:
+        if sn == snake.head:
+            pass
+        elif snake.head.distance(sn) < 10:
+            score.reset()
+            snake.reset()
 
 screen.exitonclick()

@@ -141,3 +141,8 @@ ___
 **✅ [day 22](/day22/)** `slice[0:0:0]`
 
 * Pong game
+
+---
+**✅ [day 23](/day23/)** `class`
+
+* turtle crossing
