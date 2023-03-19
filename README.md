@@ -146,3 +146,8 @@ ___
 **✅ [day 23](/day23/)** `class`
 
 * turtle crossing
+
+---
+**✅ [day 24](/day24/)** `open, close, write, replace, strip, read,with as,readlines`
+
+* Mail merging
