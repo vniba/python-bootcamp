@@ -151,3 +151,10 @@ ___
 **✅ [day 24](/day24/)** `open, close, write, replace, strip, read,with as,readlines`
 
 * Mail merging
+
+---
+**✅ [day 25](/day25/)** `pandas(lib)`
+
+* Squirrel
+* U.S state guess
+* CSV
