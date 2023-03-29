@@ -8,7 +8,7 @@ ___
 
 ---
 **✅ [day 2](/day2/) :
-**  `Datatypes, type(), str(), int(), float(), arithmetic operators[ ** , * , / , + , - ], PEDMASRL, F-string, round(), floor division(//)`
+  `Datatypes, type(), str(), int(), float(), arithmetic operators[ ** , * , / , + , - ], PEDMASRL, F-string, round(), floor division(//)`
 
 * Sum of two number
 * BMI calculator
