@@ -8,7 +8,7 @@ ___
 
 ---
 **✅ [day 2](/day2/) :
-  `Datatypes, type(), str(), int(), float(), arithmetic operators[ ** , * , / , + , - ], PEDMASRL, F-string, round(), floor division(//)`
+`Datatypes, type(), str(), int(), float(), arithmetic operators[ ** , * , / , + , - ], PEDMASRL, F-string, round(), floor division(//)`
 
 * Sum of two number
 * BMI calculator
@@ -158,3 +158,17 @@ ___
 * Squirrel
 * U.S state guess
 * CSV
+
+---
+**✅ [day 26](/day26/)** `comprehension list`
+
+* NATO phonetic
+* challenge 1-3
+
+---
+
+**✅ [day 27](/day27/)** `tkInter, *args,**kwargs`
+
+* GUI
+* miles to km converter
+
