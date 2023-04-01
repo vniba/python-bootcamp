@@ -172,3 +172,7 @@ ___
 * GUI
 * miles to km converter
 
+---
+**✅ [day 28](/day28/)** `tkInter-> canvas,grid,dynamic typing`
+
+- pomodoro clock
