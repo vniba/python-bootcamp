@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import messagebox as mb
 from random import *
+import json
 
 BLACK = '#fff'
 TEXT = '#000'
@@ -35,6 +36,8 @@ def generate_password():
         password_e.delete(0, END)
         password_e.insert(0, password)
 
+    # fixme:clipbord
+
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 # todo:collect user input
@@ -42,14 +45,27 @@ def generate_password():
 # todo: add input in file > website | mail | password > next entry in new line
 
 def write_data(web: str, mail: str, password: str):
+    new_data = {
+        web: {
+            'email': mail,
+            'password': password
+        }
+    }
     if len(web) <= 0 or len(mail) <= 0 or len(password) <= 0:
         mb.showwarning(title = 'Oops!', message = "Please provide all details", )
     else:
-        is_ok = mb.askokcancel(title = web,
-                               message = f"details \n Email : {mail}\n Password: {password} are u sure?")
-        if is_ok:
-            with open('data.txt', mode = 'a') as data:
-                data.write(f"{web} | {mail} | {password}\n")
+        try:
+            with open('data.json', mode = 'r') as data_file:
+                # reading data
+                data = json.load(data_file)
+        except FileNotFoundError:
+            with open('data.json', mode = 'w') as data_file:
+                json.dump(new_data, data_file, indent = 2)
+        else:
+            data.update(new_data)
+            with open('data.json', mode = 'w') as data_file:
+                json.dump(data, data_file, indent = 2)
+        finally:
             clear_entry()
 
 
@@ -60,6 +76,35 @@ def user_inputs():
 def clear_entry():
     website_e.delete(0, END)
     password_e.delete(0, END)
+
+
+# ------ SEARCH PASSWORD ------
+# todo: find_password fn
+# todo: check search item in data.json
+# todo : if true show popup with details
+# todo: if data.json not exits show error popup data not found
+# todo: if data not found in database > show message details
+def find_password():
+    website = website_e.get()
+    data_d = {}
+    if len(website) != 0:
+        try:
+            with open('data.json', mode = 'r') as data_file:
+                data = json.load(data_file)
+                if data[website]:
+                    data_d = data[website]
+                print(data_d)
+        except FileNotFoundError:
+            mb.showerror(title = '404', message = 'File Not Found')
+
+        except KeyError as key:
+            mb.showinfo(title = '909', message = f"No data found for {key}")
+        else:
+            mb.showinfo(title = website, message = f"email/username: {data_d['email']} "
+                                                   f"\npassword: {data_d['password']}")
+
+    else:
+        mb.showwarning(title = 'oh-hh', message = 'field cannot be empty')
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -93,9 +138,12 @@ generate_p_b.grid(column = 2, row = 3, pady = PADY)
 add_b = Button(text = 'Add', width = 38, font = FONT, command = user_inputs)
 add_b.grid(column = 1, row = 4, columnspan = 2, sticky = NSEW, pady = PADY)
 
+search = Button(text = 'Search', font = FONT, command = find_password)
+search.grid(column = 2, row = 1, sticky = NSEW, pady = PADY)
+
 # Entry
 website_e = Entry(width = 37)
-website_e.grid(column = 1, row = 1, columnspan = 2, sticky = NSEW, pady = PADY)
+website_e.grid(column = 1, row = 1, sticky = NSEW, pady = PADY)
 website_e.focus()
 email_e = Entry(width = 37)
 email_e.insert(END, 'jondoe@moon.mo')
