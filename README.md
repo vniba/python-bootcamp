@@ -181,3 +181,13 @@ ___
 **✅ [day 29](/day29/)** `popup, join`
 
 - Password Manager
+
+- ---
+**✅ [day 30](/day30/)** `try exception else finally, raise , json`
+
+- Password Manager > search
+
+- ---
+**✅ [day 31](/day31/)** `popitem`
+
+- Flip card
