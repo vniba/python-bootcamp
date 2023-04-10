@@ -191,3 +191,7 @@ ___
 **✅ [day 31](/day31/)** `popitem`
 
 - Flip card
+---
+**✅ [day32](/day32/)** `smptplib , datetime`
+
+- automated birthday wish
