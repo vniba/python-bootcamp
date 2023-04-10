@@ -200,3 +200,8 @@ ___
 **✅ [day33](/day33/)** `request, api`
 
 - iss notification
+
+---
+**✅ [day34](/day34/)** `type hints,api params,html`
+
+- trivia quiz
