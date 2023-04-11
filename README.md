@@ -205,3 +205,11 @@ ___
 **✅ [day34](/day34/)** `type hints,api params,html`
 
 - trivia quiz
+---
+**✅ [day35](/day35/)** `api key,env variables,dotnev, os,telegram`
+
+- rain alert telegram
+---
+**✅ [day36](/day36/)** `async, awiat, asyncio, list(), ternary op`
+
+- Tesla stock alert with news
