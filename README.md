@@ -213,3 +213,13 @@ ___
 **✅ [day36](/day36/)** `async, awiat, asyncio, list(), ternary op`
 
 - Tesla stock alert with news
+
+---
+**✅ [day37](/day37/)** `http methods, headers`
+
+- Habit Tracker with pixela
+
+---
+**✅ [day38](/day38/)** `http header`
+
+- Exercise Tracker with nutritionix
