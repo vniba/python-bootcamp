@@ -223,3 +223,11 @@ ___
 **✅ [day38](/day38/)** `http header`
 
 - Exercise Tracker with nutritionix
+---
+**✅ [day39](/day39/)** `oops`
+
+- Capstone project (my own way)
+---
+**✅ [day40](/day40/)** `loop`
+
+- while true pass
