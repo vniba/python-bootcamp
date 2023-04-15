@@ -231,3 +231,9 @@ ___
 **✅ [day40](/day40/)** `loop`
 
 - while true pass
+
+---
+**✅ [day45](/day45/)** `web scraping`
+
+- empire 100 movies
+- {no day41 - 44}
