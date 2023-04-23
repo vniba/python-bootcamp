@@ -242,3 +242,14 @@ ___
 
 - billboard 100 songs
 - Spotify playlist and add 100 songs
+---
+**✅ [day47](/day47/)** `selenium`
+
+- Amazon Price Drop alert
+---
+
+**✅ [day48](/day48/)** `selenium time`
+
+- wikipedia search
+- cookie clicker
+---
