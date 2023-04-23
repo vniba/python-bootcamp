@@ -237,3 +237,8 @@ ___
 
 - empire 100 movies
 - {no day41 - 44}
+---
+**✅ [day46](/day46/)** `spotypy pprint`
+
+- billboard 100 songs
+- Spotify playlist and add 100 songs
