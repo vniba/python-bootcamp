@@ -253,3 +253,9 @@ ___
 - wikipedia search
 - cookie clicker
 ---
+**✅ [day51](/day51/)** `@decorator, flask`
+
+- decorator
+- routing
+- (day49-50 is canceled due to security)
+---
