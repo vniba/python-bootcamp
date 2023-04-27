@@ -253,9 +253,18 @@ ___
 - wikipedia search
 - cookie clicker
 ---
-**✅ [day51](/day51/)** `@decorator, flask`
+**✅ [day54](/day54/)** `@decorator, flask`
 
 - decorator
 - routing
-- (day49-50 is canceled due to security)
+- (day49-53 is canceled due to security)
+---
+**✅ [day55](/day55/)** `html, flask`
+
+- Higher and lower
+
+---
+**✅ [day56](/day56/)** `renderin flask`
+
+- portfolio
 ---
