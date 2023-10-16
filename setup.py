@@ -6,5 +6,5 @@ setuptools.setup(
     author="John Doe",
     description="A description of my package",
     packages=setuptools.find_packages(),
-    install_requires=["numpy==1.23.0"],
+    install_requires=["numpy==1.26.1"],
 )
