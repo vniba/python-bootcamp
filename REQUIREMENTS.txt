@@ -16,7 +16,7 @@ httpx==1.0.0b0
 idna==3.4
 lxml==4.9.2
 mypy-extensions==1.0.0
-numpy==1.24.2
+numpy==1.26.2
 outcome==1.2.0
 packaging==23.0
 pandas==2.0.0
